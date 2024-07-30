@@ -1,12 +1,7 @@
-html{
-    height: 100%;
-}
-
 body {
     font-family: arial, sans-serif;
-    min-height: 100%;
+    background-color: lightgray;
 }
-
 
 header {
     background: url(./assets/header.jpg) no-repeat center center;
@@ -81,9 +76,3 @@ h3 {
     margin-right: 10px;
 }
 
-
-
-
-footer{
-    margin-top: auto;
-}
