@@ -1,5 +1,11 @@
+
 @media (max-width: 48rem) {
-    @mixin responsive {
-        @content;
+    .container {
+        padding: 0px 10px;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

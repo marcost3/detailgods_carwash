@@ -3,6 +3,10 @@
 @import 'utilities/mixins';
 @import 'utilities/responsive';
 
+// Import reset
+@import 'base/reset';
+
+
 // Layout
 @import 'layout/grid';
 @import 'layout/container';

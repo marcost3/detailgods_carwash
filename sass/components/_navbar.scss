@@ -1,5 +1,4 @@
 .navbar {
-
     background-color: $primary-color;
 
     .navbar-brand {
@@ -14,7 +13,7 @@
         }
     }
 
-
-
-
+    @include responsive {
+        flex-direction:row;
+    }
 }
