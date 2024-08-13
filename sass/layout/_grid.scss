@@ -5,6 +5,12 @@
     margin: 20px 0;
 }
 
+.container .grid-item:nth-child(2) img {
+    max-width: 50%; 
+    height: auto;
+}
+
+
 .grid-item {
     padding: 10px;
 }
