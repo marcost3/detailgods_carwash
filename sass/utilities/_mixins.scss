@@ -1,0 +1,13 @@
+// Mixin para centrar contenido con Flexbox
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Mixin para imágenes fluidas
+@mixin img-fluid {
+    max-width: 100%;
+    height: auto;
+}
