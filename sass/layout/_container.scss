@@ -6,14 +6,6 @@
     flex-direction: column;
 }
 
-.img-small {
-
-    max-width: 500px;
-    height: auto;
-    
-}
-
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -21,3 +13,18 @@
     margin-bottom: 20px;
 }
 
+.service-item{
+    flex: 1;
+    margin: 15px;
+}
+
+.service-text {
+    margin-top: 15px; /* ajusta según sea necesario */
+    text-align: center; /* para centrar el texto */
+}
+
+.service-image {
+    width: 100%;
+    height: 500px; /* o el tamaño que prefieras */
+    object-fit: cover;
+}
